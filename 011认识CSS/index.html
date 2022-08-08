@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://www.baidu.com">
+      <table width="600px" border="1px" cellspacing="0">
+        <tbody>
+          <tr height="40px">
+            <td rowspan="4" align="center" style="color: red">总体信息</td>
+            <td colspan="2"></td>
+          </tr>
+          <tr height="40px">
+            <td align="right">用户名：</td>
+            <td>
+              <input type="text" name="loginname" />
+            </td>
+          </tr>
+          <tr height="40px">
+            <td align="right">密码：</td>
+            <td>
+              <input type="password" name="pwd" />
+            </td>
+          </tr>
+          <tr height="40px">
+            <td colspan="2" align="center">
+              <input
+                type="submit"
+                value="提交"
+                style="width: 80px; height: 30px; background-color: #aebb83"
+              />
+              <!-- background-color = 背景色 -->
+              <input
+                type="reset"
+                value="重置"
+                style="width: 80px; height: 30px; background-color: #aebb83"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
+
+<!-- 1、表单必须要在form标签内，action属性=表单数据提交的地址
+     2、所有需要提交的数据，input必须有name属性
+     3、input按钮的文字，使用value属性表示
+     4、input必须放在form标签内才能提交
+-->
+
+<!-- 
+    input标签常见类型：
+    1、文本输入框——type="text"
+    2、密码输入框——type="password"
+    3、单选框——type="checkbox"
+    4、普通按钮——type="button"
+    5、提交按钮——type="submit"
+    6、重置按钮——type="reset"
+    7、文件选择框——type="file"
+ -->

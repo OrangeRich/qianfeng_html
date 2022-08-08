@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 新建一个六行七列的表格 tr*6>td*7（快捷新建表格）-->
+    <table border="1px"; cellspacing="0">
+      <!-- border = 边框；cellspancing = 边框的宽度 -->
+      <!-- 设定列宽 -->
+    <colgroup span="6" width="100px"></colgroup>
+    <!-- colgourp标签 = 6个col标签 -->
+    <colgroup span="1" width="200px"></colgroup>
+      <tr height="40px"; align="center">
+        <!-- 设定行高 -->
+        <td colspan="7">个人简历</td>
+        <!-- colspan属性，可以合并纵向单元格 -->
+      </tr>
+      <tr height="40px"; align="center">
+        <td>姓名</td>
+        <td></td>
+        <td>性别</td>
+        <td></td>
+        <td>年龄</td>
+        <td></td>
+        <td rowspan="4">照片</td>
+        <!-- rowspan属性，可以合并列向单元格 -->
+      </tr>
+      <tr height="40px"; align="center">
+        <td>学历</td>
+        <td></td>
+        <td>籍贯</td>
+        <td colspan="3"></td>
+      </tr>
+      <tr height="40px"; align="center">
+        <td>电话</td>
+        <td></td>
+        <td>政治面貌</td>
+        <td colspan="3"></td>
+      </tr>
+      <tr height="40px"; align="center">
+        <td>毕业院校</td>
+        <td colspan="5"></td>
+      </tr>
+      <tr height="40px"; align="center">
+        <td>求职意向</td>
+        <td colspan="6"></td>
+      </tr>
+      </tr>
+    </table>
+  </body>
+</html>
